@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.upvs.tinuten" version="1.3.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
- <name>GR8FINGAZ</name>
+<widget id="com.shikini.broadmind" version="1.3.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+ <name>SHIKINI MARKET</name>
 
   <description>
-    CHNAGING LIFES
+    Getting more for less
   </description>
  
-  <author href="https://gr8fingaz.com/" email="support@tinuten.org">
+  <author href="https://shikinimarket.com/" email="support@shikinimarket.org">
       OLUMIDE OGUNDELE FRANCIS
   </author>
  
