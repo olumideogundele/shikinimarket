@@ -48,17 +48,14 @@
 	<preference name="deployment-target" value="8.0" />
   <plugin name="cordova-plugin-geolocation" source="npm"/>
 	 
-		<gap:plugin name="cordova-plugin-vibration" source="npm" version="2.1.1" />
-
-   <plugin name="cordova-plugin-geolocation"  spec="0.3.12" source="npm"/>
+ 
+ 
 <plugin name="cordova-plugin-network-information"  spec="0.2.15" source="npm" />
  <plugin name="cordova-plugin-splashscreen"    source="npm" />
   
 
  	  <plugin name="cordova-plugin-device" value="org.apache.cordova.device"/>
-	<feature name="Notification">
-    <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
-</feature>
+ 
 
     <plugin name="cordova-plugin-device-motion" source="npm"/>
     <plugin name="cordova-plugin-device-orientation" source="npm"/>
