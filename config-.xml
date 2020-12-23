@@ -1,9 +1,9 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap = "http://phonegap.com/ns/1.0"
-	id        = "com.payall.ng"
+	id        = "com.shikinimarket.com"
 	versionCode="1"
-	version   = "1.2.6">
-	<preference name="phonegap-version" value="cli-6.5.0"/>
+	version   = "1.3.6">
+	<preference name="phonegap-version" value="cli-7.1.0"/>
 
     <plugin name="cordova-plugin-whitelist" source="npm" />
     <access origin="*" />
@@ -17,9 +17,9 @@
     <platform name="android" />
     <platform name="winphone" />
 	
-    <name>PayAll</name>
-    <description>Giving more for less...</description>
-    <author href="http://www.payall.ng" email="info@payall.ng">Tinuten Nigeria</author>
+    <name>Shikini Market</name>
+    <description>Getting more for less...</description>
+    <author href="http://www.shikinimarket.com" email="info@shikinimarket.com">BroadMind</author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
 	<preference name="android-build-tool" value="gradle" />
@@ -39,7 +39,7 @@
 <preference name="SplashScreenSpinnerColor" value="white" />
 
 	<preference name="disable-cursor" value="false" />
-    <preference name="android-minSdkVersion" value="10" />
+    <preference name="android-minSdkVersion" value="11" />
     <preference name="android-targetSdkVersion" value="26" />
     <preference name="android-installLocation" value="auto" />
  
@@ -48,22 +48,14 @@
 	<preference name="deployment-target" value="8.0" />
   <plugin name="cordova-plugin-geolocation" source="npm"/>
 	 
-		<gap:plugin name="cordova-plugin-vibration" source="npm" version="2.1.1" />
-
-   <plugin name="cordova-plugin-geolocation"  spec="0.3.12" source="npm"/>
+ 
+ 
 <plugin name="cordova-plugin-network-information"  spec="0.2.15" source="npm" />
  <plugin name="cordova-plugin-splashscreen"    source="npm" />
   
 
  	  <plugin name="cordova-plugin-device" value="org.apache.cordova.device"/>
-	<feature name="Notification">
-    <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
-</feature>
-
-    <plugin name="cordova-plugin-device-motion" source="npm"/>
-    <plugin name="cordova-plugin-device-orientation" source="npm"/>
-    <plugin name="cordova-plugin-dialogs" source="npm"/>
-<plugin name="cordova-plugin-file" spec="~6.0.0" />    
+   
  <plugin name="cordova-plugin-globalization" source="npm"/>
     <plugin name="cordova-plugin-inappbrowser" source="npm"/>
     <plugin name="cordova-plugin-media" source="npm"/>
@@ -117,7 +109,7 @@
     
  
 		
-				<feature name="http://tizen.org/api/systeminfo" required="true"/>
+				
  
 		 
 		<feature name="http://api.phonegap.com/1.0/media" />
