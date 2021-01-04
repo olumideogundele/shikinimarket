@@ -3,7 +3,7 @@
 	id        = "com.shikinimarrket.com"
 	versionCode="2"
 	version   = "1.3.0">
-	<preference name="phonegap-version" value="cli-7.5.0"/>
+	<preference name="phonegap-version" value="cli-7.0.0"/>
 
     <plugin name="cordova-plugin-whitelist" source="npm" />
     <access origin="*" />
